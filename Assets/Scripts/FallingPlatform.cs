@@ -20,7 +20,7 @@ public class FallingPlatform : MonoBehaviour {
         if (isFalling)
         {
             downSpeed += Time.deltaTime/20;
-            transform.position = new Vector3(transform.position.x,
+            transform.position = new Vector3(transform.position.x, //Falls on the Y Axis (down) at 20/100 speed
                 transform.position.y - downSpeed,
                 transform.position.z);
         }

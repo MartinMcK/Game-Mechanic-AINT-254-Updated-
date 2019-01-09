@@ -16,11 +16,11 @@ public class Crouch : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.C))
         {
-            characterController.height = 0.4f;
+            characterController.height = 0.4f; //Crouch jsut lowers the chracters height 
         }
         else
         {
-            characterController.height = 1.0f;
+            characterController.height = 1.0f; //puts characters height to normal is C isnt pressed down 
         }
 	}
 }
